@@ -1,25 +1,28 @@
 body {
     margin: 0px;
 }
-
 .top-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.top-nav nav {
     background-color: rgb(128, 128, 128);
     line-height: 50px;
-    position: fixed;
     width: 100%;
     text-align: center;
     opacity: 0.8;
     font-weight: bolder;
 }
 
-.top-nav > a {
+.top-nav nav > a {
     text-decoration: none;
     color: white;
     margin: 0px 20px;
 }
 
-
-.headerdiv {
+.landing {
     background-image: url(Images/Oakland_GettyImages-895763946.jpeg);
     background-position: center;
     height: 750px;
@@ -30,11 +33,11 @@ body {
     color: white;
 }
 
-.headerdiv h1 {
+.landing h1 {
     font-size: 50px;
 }
 
-.headerdiv h3 {
+.landing h3 {
     font-size: 30px;
 }
 
